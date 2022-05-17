@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Add from './components/Add';
+import BigInt from './components/BigInt';
 
 function App() {
   return (
@@ -18,7 +19,9 @@ function App() {
         >
           Learn React
         </a>
-     <Add />
+     {/* <Add /> */}
+
+     <BigInt />
       </header>
     </div>
   );
